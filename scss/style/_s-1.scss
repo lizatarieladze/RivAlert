@@ -1,0 +1,40 @@
+.s-1{
+    background-image: url("https://media1.thehungryjpeg.com/thumbs2/800_3492755_618863b3d75829e07b84fbe97113bb2324fa7f43_blue-waves-pattern-summer-lake-wave-water-flow-abstract-vector-seaml.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 470px;
+	padding: 168px 20px;
+	margin-top: 20px;
+	h2{
+		max-width: 1150px;
+		width: 100%;
+		// padding-top: 128px;
+		padding-left: 110px;
+		color: #ffffff;
+		font-family: Roboto;
+		font-size: 80px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 120%; /* 76.8px */
+		margin-bottom: 40px;
+		text-shadow: 3px 3px rgb(26, 5, 183);
+	}
+	@media (max-width: 950px){
+		height: fit-content;
+		h2{
+			font-size: 35px;
+			margin-top: 20px;
+			text-align: center;
+			padding: 0 0;
+		}
+	}
+	@media (max-width: 450px){
+		height: fit-content;
+		h2{
+			font-size: 25px;
+			margin-top: 20px;
+			text-align: center;
+			padding: 0 0;
+		}
+	}
+}

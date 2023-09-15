@@ -1,0 +1,137 @@
+
+.s-3{
+	padding: 5px;
+	background-color: #beeef3;
+	.box1{
+		display: flex;
+		justify-content: space-between;
+		max-width: 1400px;
+		width: 100%;
+		margin: 96px auto;
+		.line{
+			width: 71px;
+			height: 1px;
+			background-color: black;
+			margin-top: 10px;
+			margin-right: 10px;
+		}
+		
+		.aboutus{
+			display: flex;
+			flex-wrap: wrap;
+			margin-right: 96px;
+			max-width: 608px;
+			h3{
+				color: blue;
+				font-family: Roboto;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				margin-bottom: 32px;
+				@include media;
+				@media (max-width: 500px){
+					margin: 0 auto;
+				}
+			}
+			h4{
+				font-family: Roboto;
+				font-size: 48px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 120%; /* 57.6px */
+				margin-bottom: 16px;
+				@include media;
+				@media (max-width: 500px){
+					font-size: 27px;
+					
+				}
+			}
+			.p{
+				color: var(--secondary-text, #525560);
+				font-family: Roboto;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 160%; /* 25.6px */
+				@include media;
+			}
+			.advice{
+				display: flex;
+				margin-top: 33px;
+				.line3{
+					height: 441px;
+					width: 1.5px;
+					background-color: #a8b2e0;
+					opacity: 50%;
+					margin-right: 24px;
+				}
+				nav{
+					display: flex;
+					flex-direction: column;
+					justify-content: space-around;
+					height: 441px;
+					.main{
+						display: flex;
+						align-items:first baseline;
+						i{
+							margin-right: 9px;
+							color: rgb(19, 37, 235);
+						}
+						div{
+							h1{
+								color: var(--primary-text, #1D2130);
+								font-family: Roboto;
+								font-size: 20px;
+								font-style: normal;
+								font-weight: 700;
+								line-height: normal;
+								@media (max-width: 700px){
+									font-size: 25px;
+								}
+								@media (max-width: 400px){
+									font-size: 15px;
+								}
+								
+							}
+							p{
+								color: var(--secondary-text, #525560);
+								font-family: Roboto;
+								font-size: 16px;
+								font-style: normal;
+								font-weight: 400;
+								line-height: 160%; /* 25.6px */
+						    }
+						}
+					}
+				}
+			}
+			@media (max-width: 1000px){
+				margin: 0 auto;
+				
+			}
+		}
+		img{
+			max-width: 800px;
+			width: 100%
+		};
+		@media (max-width: 1000px){
+			display: flex;
+			flex-direction: column;
+			margin: 0 auto;
+			img{
+				max-width: 600px;
+				width: 80%;
+				margin: 33px auto;
+			}
+			.line{
+				display: none;
+			}
+		}
+	}
+	@media (max-width: 1500px){
+		padding: 30px;
+	}
+}

@@ -1,0 +1,129 @@
+@mixin line{
+    width: 71px;
+	height: 1px;
+	background-color: black;    
+    margin-top: 10px;
+	margin-right: 10px; 
+}
+
+@mixin cube{
+	width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+@mixin paragraph {
+    color: var(--secondary-text, #525560);
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%; /* 25.6px */
+}
+
+@mixin media{
+	@media (max-width: 1000px){
+		text-align: center;
+	}
+}
+
+@mixin h1{
+	color: var(--primary-text, #1D2130);
+	font-family: Roboto;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%; /* 57.6px */
+}
+
+@mixin barati{
+	background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 400px;
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    // padding: 80px 48px;
+    margin: 20px 20px;
+    transition: all  transform 2s; 
+}
+
+.iconss:hover{ 
+	transform: rotate(13deg) scale(1.1);
+}
+.box:hover{
+	transform: scale(1.05);
+}
+
+.baratebi img:hover{
+	transform: scale(3.0);
+}
+.barati01:hover {
+	transform: scale(1.05); 
+  }
+.barati1:hover {
+  transform: scale(1.05); 
+}
+.barati2:hover {
+	transform: scale(1.05); 
+  }
+.barati3:hover {
+	transform: scale(1.05); 
+}
+.barati4:hover {
+	transform: scale(1.05); 
+  }
+.barati5:hover {
+	transform: scale(1.05); 
+  }
+.barati6:hover {
+	transform: scale(1.05); 
+  }
+  .barati7:hover {
+	transform: scale(1.05); 
+  }
+  .barati8:hover {
+	  transform: scale(1.05); 
+	}
+  .barati9:hover {
+	  transform: scale(1.05); 
+  }
+  .barati10:hover {
+	  transform: scale(1.05); 
+	}
+  .barati11:hover {
+	  transform: scale(1.05); 
+	}
+  .barati12:hover {
+	  transform: scale(1.05); 
+	}
+.barati13:hover {
+  transform: scale(1.05); 
+}
+.barati14:hover {
+	transform: scale(1.05); 
+  }
+.barati15:hover {
+	transform: scale(1.05); 
+}
+.barati16:hover {
+	transform: scale(1.05); 
+  }
+.barati17:hover {
+	transform: scale(1.05); 
+  }
+.barati18:hover {
+	transform: scale(1.05); 
+}
+.barati19:hover {
+	transform: scale(1.05); 
+  }
+.barati20:hover {
+	transform: scale(1.05); 
+}

@@ -1,0 +1,108 @@
+/*Navbar*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(56, 176, 195);
+    border-radius: 15px;
+    top: 0;
+    padding: 10px;
+    margin: 40px 20px;
+    ul{
+        display:flex;
+        list-style: none;
+        margin: 0px 0px;
+    }
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+.navbar ul li a {
+    text-decoration: none;
+    // color: azure;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a :hover{
+    // background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+img{
+    width: 50px;
+}   
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 450px;
+        border: 1px solid rgb(56, 176, 195);
+        margin: 10px;
+        align-items: center;
+        text-align: justify;
+        padding: 10px;
+        border-radius: 30px;
+        background: linear-gradient(to top, rgb(248, 234, 40)50%, rgba(54, 163, 231, 0.887) 50%);
+        background-size: 100% 200%;
+        transition: all .8;
+        .img{
+            display: flex;
+            margin: 0 auto;
+            img{
+                margin: 20px;
+                object-fit: cover;
+                max-width: 120px;
+                width: 100%;
+                border-radius: 20px;
+            }
+            img:hover{
+                transform: scale(1.9);
+            }
+        };
+        @media(max-width:400px){
+            .img{
+                img{
+                    max-width: 85px;
+                }
+            }
+        }
+    }
+    .box:hover{
+        background-position: left bottom;
+        color: white;
+        border: none;
+        box-shadow: 0 0 20px rgb(45, 225, 198);
+        // img{
+        //     width: 80px;
+        //     height: 80px;
+        //     padding: 10px;
+        // }
+    }
+}
+@media(max-width:800px){
+    .row{
+        margin: 0 10px;
+    }
+    .navbar{
+        ul{
+            li{
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

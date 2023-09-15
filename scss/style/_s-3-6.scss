@@ -1,0 +1,19 @@
+.s-3-6{
+    margin-top: 30px;
+    // background-color: rgb(175, 224, 245);
+    padding: 30px;
+    .baratebi{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1500px;
+        width: 100%;
+        video{
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 30px;
+            margin: 5px auto;
+        }
+    }
+}
