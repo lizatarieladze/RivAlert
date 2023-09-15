@@ -1,12 +1,16 @@
 .s-3-5{
     margin-bottom: 100px;
     padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     // background-color: rgb(250, 250, 227);
     img{
         max-width: 1000px;
         width: 100%;
-        margin: 0 auto;
+        
     }
+    @meedia
     h1{
         @include h1;
         margin: 50px auto;
@@ -18,7 +22,7 @@
         }
     }
     h2{
-        color: rgb(224, 223, 229);
+        color: rgb(14, 182, 224);
         font-weight: 700;
         font-size: 30px;
         text-align: center;
