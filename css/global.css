@@ -1563,23 +1563,21 @@ footer {
   max-width: 1000px;
   width: 100%;
 }
-@meedia h1 {
-  .s-3-5 {
-    color: var(--primary-text, #1D2130);
-    font-family: Roboto;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%; /* 57.6px */
-    margin: 50px auto;
-    max-width: 700px;
-    width: 100%;
-    text-align: center;
-  }
-  @media (max-width: 600px) {
-    .s-3-5 {
-      font-size: 30px;
-    }
+.s-3-5 h1 {
+  color: var(--primary-text, #1D2130);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  margin: 50px auto;
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .s-3-5 h1 {
+    font-size: 30px;
   }
 }
 .s-3-5 h2 {
